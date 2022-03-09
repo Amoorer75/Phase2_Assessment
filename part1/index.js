@@ -38,4 +38,21 @@
 // })
 
 //9.
+const names = ["james", 'joseph', 'diamond', 'gillian']
+function properNames(names) {
+
+    const capName = names.map((item) => {
+        if (item[0] != toUpperCase(tem[0])){
+            return toUpperCase(tem[0])
+        }
+    })
+    return capName
+}
+console.log(properNames(names))
+
+//10
+let news = ['','','']
+const lessThanSix = news.filter((iteam) => {
+  //  if
+})
 
